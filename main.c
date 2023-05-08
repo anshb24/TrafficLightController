@@ -14,7 +14,7 @@ while(1)
             case 1: //initial state - both ways red light
                 setLED(NSR|EWR|PR, ON);
                 delay(3000);
-                if(checkBot(NS1))
+                if(checkBot(PUSH_BUTTON))
                 {
                     setLED(PR,OFF);
                     setLED(PG,ON);
@@ -22,7 +22,7 @@ while(1)
                     setLED(PG,OFF);
                     state = 1;
                 }
-                else if(!checkBot(NS1))
+                else if(!checkBot(PUSH_BUTTON))
                 {                
                     delay(10000); //after 10 seconds
                     state = 2;
@@ -34,7 +34,7 @@ while(1)
                    setLED(NSR, OFF);                   
                    setLED(NSG|PR, ON);
                    delay(3000); //
-                   if(checkBot(NS1))
+                   if(checkBot(PUSH_BUTTON))
                     {
                         setLED(NSG,OFF);
                         while(!error)
@@ -55,7 +55,7 @@ while(1)
                         setLED(PG,OFF);
                         state = 1;
                     }
-                else if(!checkBot(NS1))
+                else if(!checkBot(PUSH_BUTTON))
                 { 
                    delay(20000); //after 20 seconds
                    state = 3;
@@ -66,7 +66,7 @@ while(1)
                    setLED(NSG|NSR, OFF);
                    setLED(NSY|PR, ON);
                    delay(3000); // 3 seconds
-                   if(checkBot(NS1))
+                   if(checkBot(PUSH_BUTTON))
                     {
                     setLED(PR|NSY,OFF);
                     setLED(PG|NSR,ON);
@@ -74,7 +74,7 @@ while(1)
                     setLED(PG,OFF);
                     state = 2;
                     }
-                    else if(!checkBot(NS1))
+                    else if(!checkBot(PUSH_BUTTON))
                     {
                    state = 4;
                     }
@@ -83,7 +83,7 @@ while(1)
                    setLED(NSY, OFF);
                    setLED(NSR|PR, ON);
                    delay(5000); // 5 seconds
-                   if(checkBot(NS1))
+                   if(checkBot(PUSH_BUTTON))
                     {
                     setLED(PR,OFF);
                     setLED(PG,ON);
@@ -91,7 +91,7 @@ while(1)
                     setLED(PG,OFF);
                     state = 3;
                     }
-                    else if(!checkBot(NS1))
+                    else if(!checkBot(PUSH_BUTTON))
                     {
                     state = 5;
                     }
@@ -101,7 +101,7 @@ while(1)
                    setLED(EWR, OFF);
                    setLED(EWG|PR, ON);
                    delay(3000); 
-                    if(checkBot(NS1))
+                    if(checkBot(PUSH_BUTTON))
                     {
                         setLED(EWG,OFF);
                         count=0;
@@ -123,7 +123,7 @@ while(1)
                         setLED(PG,OFF);
                         state = 4;
                     }
-                    else if(!checkBot(NS1))
+                    else if(!checkBot(PUSH_BUTTON))
                     {
                    delay(20000);
                    state = 6;
@@ -134,7 +134,7 @@ while(1)
                    setLED(EWG, OFF);
                    setLED(EWY, ON);
                    delay(3000);
-                   if(checkBot(NS1))
+                   if(checkBot(PUSH_BUTTON))
                     {
                     setLED(PR|EWY,OFF);
                     setLED(PG|EWR,ON);
@@ -142,7 +142,7 @@ while(1)
                     setLED(PG,OFF);
                     state = 5;
                     }
-                    else if(!checkBot(NS1))
+                    else if(!checkBot(PUSH_BUTTON))
                     {
                    setLED(EWY, OFF);
                    setLED(EWR, ON);
