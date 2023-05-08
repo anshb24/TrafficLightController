@@ -2,10 +2,10 @@
 #define ON 0x01
 #define OFF 0x00
 
-#define NS1 (1U<<10) //pin 16 offset 
-#define NS2 (1U<<11) //pin 17 offset
-#define ES1 (1U<<12) //pin 18 offset
-#define ES2 (1U<<13) //pin 19 offset
+#define PUSH_BUTTON (1U<<10) //pin 16 offset - PUSH BUTTON PIN 16
+// #define NS2 (1U<<11) //pin 17 offset
+// #define ES1 (1U<<12) //pin 18 offset
+// #define ES2 (1U<<13) //pin 19 offset
 
 #define NSR (1U<<1)       //pin 9 offset        
 #define NSY (1U<<2)       //pin 10 offset
