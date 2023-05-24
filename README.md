@@ -1,6 +1,6 @@
 This contributors for this excercise are - 
-Ansh Bhatnagar (ab10741@nyu.edu)
-Gesang Zeren (zg2442@nyu.edu)
+* Ansh Bhatnagar (ab10741@nyu.edu)
+* Gesang Zeren (zg2442@nyu.edu)
 
 Problem Statement-
 A traffic intersection has a problem with traffic congestion during peak hours. The traffic lights are 
