@@ -1,4 +1,4 @@
-This contributors for this excercise are - 
+The contributors for this excercise are - 
 * Ansh Bhatnagar (ab10741@nyu.edu)
 * Gesang Zeren (zg2442@nyu.edu)
 
@@ -8,4 +8,4 @@ poorly timed, causing long wait times and traffic jams. Your task is to implemen
 control system that will reduce the wait time for drivers and improve traffic flow. The traffic 
 light system consists of two intersections, North-South and East-West.
 
-The state machine diagram of the soultion implemented is available in the repository. The other files in the repository include code for setup and implementation of the problem.
+The state machine diagram of the solution implemented is available in the repository. The other files in the repository include code for setup and implementation of the problem.
