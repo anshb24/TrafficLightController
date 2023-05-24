@@ -1,4 +1,4 @@
-The contributors for this excercise are - 
+The contributors for this exercise are - 
 * Ansh Bhatnagar (ab10741@nyu.edu)
 * Gesang Zeren (zg2442@nyu.edu)
 
